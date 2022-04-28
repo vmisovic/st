@@ -5,7 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=16:antialias=true:autohint=true";
+//static char *font = "Liberation Mono:pixelsize=16:antialias=true:autohint=true";
+static char *font = "JetBrainsMono:pixelsize=15:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {"SpaceMono Nerd Font Mono:style=Regular"
 /*	"Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true", */
@@ -142,7 +143,7 @@ static const char *colorname[] = {
  */
 unsigned int defaultfg = 15;
 unsigned int defaultbg = 0;
-static unsigned int defaultcs = 15;
+unsigned int defaultcs = 15;
 static unsigned int defaultrcs = 257;
 unsigned int bg = 0, bgUnfocused = 0;
 
