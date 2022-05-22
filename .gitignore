@@ -2,3 +2,5 @@ boxdraw.o
 st
 st.o
 x.o
+*.rej
+*.orig
